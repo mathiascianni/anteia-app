@@ -1,21 +1,16 @@
 
 import { IonButtons, IonContent, IonHeader, IonMenu, IonMenuButton, IonPage } from "@ionic/react";
-import { Menu } from "../Icons";
+import { Menu, Bell, AnteiaLogo } from "../Icons";
 const TooltipsTop = () => {
     return (
         <>
-            <IonMenu contentId="main-content" >
-                <IonContent>
-                    <p className="text-red-200">This is the menu content.</p>
-                    <p className="text-red-700">This is the menu content.</p>
-                    <p className="text-red-200">This is the menu content.</p>
-                </IonContent>
-            </IonMenu>
             <IonPage id="main-content">
-                <IonHeader className="p-4">
+                <IonHeader className="p-4 shadow-none">
                     <div>
-                        <IonButtons slot="start">
-                            <IonMenuButton className="text-dark"><Menu /></IonMenuButton>
+                        <IonButtons slot="start" class="flex justify-between">
+                            {/* <IonMenuButton className="text-dark"><Menu /></IonMenuButton> */}
+                            <button ><AnteiaLogo /></button>
+                            <button><Bell /></button>
                         </IonButtons>
                     </div>
                 </IonHeader>

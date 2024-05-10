@@ -5,6 +5,7 @@ import Gear from "./Gear";
 import Home from "./Home";
 import User from "./User";
 import Menu from "./Menu";
+import AnteiaLogo from "./AnteiaLogo";
 
 export {
     Heart,
@@ -13,5 +14,6 @@ export {
     Gear,
     Home,
     User,
-    Menu
+    Menu,
+    AnteiaLogo
 }
